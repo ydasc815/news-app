@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#83C8FF </color>
+    <color name="colorPrimaryDark">#83C8FF </color>
+    <color name="colorAccent">#03DAC5</color>
+
+<!--    Pie Chart Color combination-->
+    <color name="color1">#FF4A83</color>
+    <color name="color2">#58FFAF</color>
+    <color name="color3">#45D1FF</color>
+    <color name="color4">#00BD02</color>
+    <color name="color5">#676767</color>
+</resources>

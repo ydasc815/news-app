@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/topHeadlinesFragment">
+
+    <fragment
+        android:id="@+id/topHeadlinesFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.TopHeadlinesFragment"
+        android:label="Top Headlines"
+        tools:layout="@layout/fragment_topheadlines">
+        <action
+            android:id="@+id/action_topHeadlinesFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.NewsDetailsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_newsdetails" />
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.BusinessFragment"
+        android:label="Business"
+        tools:layout="@layout/fragment_business">
+        <action
+            android:id="@+id/action_businessFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.EntertainmentFragment"
+        android:label="Entertainment"
+        tools:layout="@layout/fragment_entertainment">
+        <action
+            android:id="@+id/action_entertainmentFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.HealthFragment"
+        android:label="Health"
+        tools:layout="@layout/fragment_health">
+        <action
+            android:id="@+id/action_healthFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scienceFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.ScienceFragment"
+        android:label="Science"
+        tools:layout="@layout/fragment_science">
+        <action
+            android:id="@+id/action_scienceFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.SportsFragment"
+        android:label="Sports"
+        tools:layout="@layout/fragment_sports">
+        <action
+            android:id="@+id/action_sportsFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/techFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.TechFragment"
+        android:label="Technology"
+        tools:layout="@layout/fragment_tech">
+        <action
+            android:id="@+id/action_techFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.newsapp_30daysofkotlin.fragments.AboutFragment"
+        android:label="About App"
+        tools:layout="@layout/fragment_about" />
+</navigation>

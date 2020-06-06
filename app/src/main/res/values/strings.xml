@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">News Today</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="NewsTitle">News Title Comes here</string>
+    <string name="PublishTime">Published At :</string>
+    <string name="PublishTimeValue">News Publish Time</string>
+    <string name="news_headline">News Headline</string>
+    <string name="news_details">News Details</string>
+    <!--    Menu Layout String Resource-->
+    <string name="technology">Technology</string>
+    <string name="top_headlines">Top Headlines</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="others">Others</string>
+    <string name="categories">Categories</string>
+    <!--    Drop Down Menu Item-->
+    <string name="about">About</string>
+    <!--    Pie Data String Values-->
+    <string name="covid_19_stats">COVID 19 Stats\n(India)</string>
+    <string name="total_confirmed_cases">Total Confirmed Cases</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="total_deaths">Total Deaths</string>
+    <!--    App Name-->
+    <string name="news_today_app">News Today App</string>
+    <string name="news_today">News Today</string>
+<!--    About Page Content-->
+    <string name="about_content"><![CDATA[This is a simple News App built using Kotlin. Get all types of news from Top & Trending to various categorized news such as Health and Science, from all news sources at one place. \n\n App designed & developed\n by Aditya]]></string>
+</resources>
