@@ -15,4 +15,5 @@ All the categories of news are binded by a Navigation view (of Drawer Layout) wh
 - RecyclerView, for storing news data in a list efficiently.
 - Volley library, for fetching news data from a news API (host : https://newsapi.org/).
 - MPAndroidChart library, for displaying Pie Chart data.
-- WebView for loading news URL.
+- Glide library, for fetching news images from the API.
+- WebView, for loading news URL.
