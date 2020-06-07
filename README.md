@@ -8,7 +8,7 @@ Two Activities and Nine Fragments have been used to build up the whole app. News
 
 ![alt text](https://github.com/ydasc815/news-app/blob/master/app/src/main/res/drawable/app_screens.png?raw=true)
 
-All the categories of news are binded by a Navigation view (of Drawer Layout) which swipes right from left. In the main fragment (top headlines), a Pie Chart has also been implemented to display live COVID-19 Statistics for India along with some numbers denoting these stats. Finally, a drop down menu on the AppBar displays an About App screen.
+All the categories of news are binded by a Navigation view (or Drawer Layout) which swipes right from left. In the main fragment (top headlines), a Pie Chart has also been implemented to display live COVID-19 Statistics for India along with some numbers denoting these stats. Finally, a drop down menu on the AppBar displays an About App screen.
 
 #### Concepts & Libraries implemented
 - Android Navigation Components, for navigating between between screens. 
