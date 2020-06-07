@@ -5,6 +5,7 @@ This is a simple News app which fetches news data from an API and displays the n
 
 #### Brief Overview & Working of the app
 Two Activities and Nine Fragments have been used to build up the whole app. News items are stored in a Vertical RecyclerView and each of the news items open up in a new fragment implementing a full screen WebView. The news data is fetched from an API (host : https://newsapi.org/) using Volley library. Refer the following App screens for a better understanding of its structure :
+
 ![alt text](https://github.com/ydasc815/news-app/blob/master/app/src/main/res/drawable/app_screens.png?raw=true)
 
 All the categories of news are binded by a Navigation view (of Drawer Layout) which swipes right from left. In the main fragment (top headlines), a Pie Chart has also been implemented to display live COVID-19 Statistics for India along with some numbers denoting these stats. Finally, a drop down menu on the AppBar displays an About App screen.
