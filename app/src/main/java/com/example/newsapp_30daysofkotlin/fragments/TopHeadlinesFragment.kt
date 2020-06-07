@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.android.volley.Request
@@ -144,7 +145,7 @@ class TopHeadlinesFragment : Fragment() {
             binding.tdValue.text = td.toString()
             binding.trValue.text = tr.toString()
         }
-        Handler().postDelayed(r, 6000)
+        Handler().postDelayed(r, 5000)
 
     }
 
@@ -161,11 +162,11 @@ class TopHeadlinesFragment : Fragment() {
         val yValues: ArrayList<PieEntry> = ArrayList()
         val listColors = ArrayList<Int>()
         yValues.add(PieEntry(tr.toFloat(), "Recovered"))
-        listColors.add(resources.getColor(R.color.color1))
+        listColors.add(ContextCompat.getColor(requireContext(), R.color.color1))
         yValues.add(PieEntry(td.toFloat(), "Died"))
-        listColors.add(resources.getColor(R.color.color2))
+        listColors.add(ContextCompat.getColor(requireContext(), R.color.color2))
         yValues.add(PieEntry(tc.toFloat() - td.toFloat() - tr.toFloat(), "Active"))
-        listColors.add(resources.getColor(R.color.color3))
+        listColors.add(ContextCompat.getColor(requireContext(), R.color.color3))
         val dataSet = PieDataSet(yValues, "")
         dataSet.colors = listColors
         dataSet.sliceSpace = 3f
